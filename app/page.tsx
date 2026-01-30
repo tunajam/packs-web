@@ -23,12 +23,9 @@ export default function Page() {
           Skills for AI agents. One command.
         </p>
         
-        <div className="flex items-center justify-center gap-4 mb-8">
-          <div className="bg-primary text-primary-foreground px-2 py-0.5 text-[10px] font-medium uppercase tracking-wider">
-            Coming Soon
-          </div>
-          <code className="text-muted-foreground text-xs">
-            <span className="opacity-60">#</span> brew install packs
+        <div className="flex items-center justify-center mb-8">
+          <code className="bg-muted border border-border px-4 py-2 text-sm font-mono">
+            go install github.com/tunajam/packs@latest
           </code>
         </div>
         
