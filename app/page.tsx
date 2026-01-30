@@ -1,4 +1,5 @@
 import { CliOutput } from "@/components/elements/cli-output";
+import { CopyCommand } from "@/components/elements/copy-command";
 
 const usageOutput = [
   "packs                              \x1b[90m# browse\x1b[0m",
@@ -24,9 +25,7 @@ export default function Page() {
         </p>
         
         <div className="flex items-center justify-center mb-8">
-          <code className="bg-muted border border-border px-4 py-2 text-sm font-mono">
-            brew install tunajam/tap/packs
-          </code>
+          <CopyCommand command="brew install tunajam/tap/packs" />
         </div>
         
         <CliOutput 
