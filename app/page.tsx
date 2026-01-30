@@ -25,7 +25,7 @@ export default function Page() {
         
         <div className="flex items-center justify-center mb-8">
           <code className="bg-muted border border-border px-4 py-2 text-sm font-mono">
-            go install github.com/tunajam/packs@latest
+            brew install tunajam/tap/packs
           </code>
         </div>
         
