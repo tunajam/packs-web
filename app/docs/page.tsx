@@ -60,6 +60,16 @@ export default function DocsPage() {
               </p>
             </div>
 
+            <div className="bg-muted/30 border border-border rounded-lg p-6 mb-8">
+              <h2 className="font-semibold mb-2">The right packs make your agent better.</h2>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                AI agents are only as good as the context they have. A pack gives your agent 
+                battle-tested knowledge—how to debug systematically, how to write commits that 
+                make sense, how to handle errors consistently. Instead of figuring it out from 
+                scratch every time, your agent loads a skill and just knows what to do.
+              </p>
+            </div>
+
             <Separator className="my-8" />
 
             {/* Install */}
