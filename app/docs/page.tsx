@@ -61,12 +61,10 @@ export default function DocsPage() {
             </div>
 
             <div className="bg-muted/30 border border-border rounded-lg p-6 mb-8">
-              <h2 className="font-semibold mb-2">The right packs make your agent better.</h2>
+              <h2 className="font-semibold mb-2">Better context, better results.</h2>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                AI agents are only as good as the context they have. A pack gives your agent 
-                battle-tested knowledge—how to debug systematically, how to write commits that 
-                make sense, how to handle errors consistently. Instead of figuring it out from 
-                scratch every time, your agent loads a skill and just knows what to do.
+                Without a pack, your agent guesses. With one, it executes. The difference 
+                between &quot;let me try something&quot; and shipping code that actually works.
               </p>
             </div>
 
