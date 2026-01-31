@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "packs.sh — Skills for AI agents",
-  description: "Discover, install, and share AI skills, prompts, and context. One command.",
+  title: "packs.sh — Skill packs for AI agents",
+  description: "Skill packs for AI agents. One command.",
 };
 
 export default function RootLayout({
