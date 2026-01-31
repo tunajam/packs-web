@@ -38,10 +38,10 @@ export default function Page() {
         
         <div className="flex gap-4 justify-center flex-wrap">
           <a 
-            href="https://github.com/tunajam/packs-registry" 
+            href="/docs" 
             className="bg-primary text-primary-foreground px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
           >
-            Browse Packs
+            Docs
           </a>
           <a 
             href="https://github.com/tunajam/packs" 
