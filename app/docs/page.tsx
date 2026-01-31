@@ -61,10 +61,9 @@ export default function DocsPage() {
             </div>
 
             <div className="bg-muted/30 border border-border rounded-lg p-6 mb-8">
-              <h2 className="font-semibold mb-2">Better context, better results.</h2>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                Without a pack, your agent guesses. With one, it executes. The difference 
-                between &quot;let me try something&quot; and shipping code that actually works.
+              <p className="text-muted-foreground leading-relaxed">
+                One pack. Your agent goes from &quot;I&apos;ll attempt to debug this&quot; to following 
+                a proven, systematic process. Better results, less fumbling.
               </p>
             </div>
 
