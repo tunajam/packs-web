@@ -144,7 +144,7 @@ export default function DocsPage() {
             <section className="scroll-mt-24" id="types">
               <h2 className="text-xl font-semibold tracking-tight mb-4">Pack Types</h2>
               <p className="text-muted-foreground mb-6">
-                Packs come in three flavors, each serving a different purpose.
+                Packs come in two types, each serving a different purpose.
               </p>
               
               <div className="grid gap-4">
@@ -165,16 +165,6 @@ export default function DocsPage() {
                   </div>
                   <p className="text-sm text-muted-foreground">
                     Reference material and best practices. Framework patterns, API conventions, language idioms.
-                  </p>
-                </div>
-                
-                <div className="p-4 border border-border rounded-lg">
-                  <div className="flex items-center gap-2 mb-2">
-                    <h3 className="font-medium">Prompts</h3>
-                    <Badge>PROMPT.md</Badge>
-                  </div>
-                  <p className="text-sm text-muted-foreground">
-                    Reusable prompt templates for specific, repeatable tasks.
                   </p>
                 </div>
               </div>
@@ -214,9 +204,8 @@ license: MIT`}
                 <div>
                   <h3 className="font-medium mb-3">Content File</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Your <code className="text-xs bg-muted px-1.5 py-0.5 rounded">SKILL.md</code>,{" "}
-                    <code className="text-xs bg-muted px-1.5 py-0.5 rounded">CONTEXT.md</code>, or{" "}
-                    <code className="text-xs bg-muted px-1.5 py-0.5 rounded">PROMPT.md</code> should include:
+                    Your <code className="text-xs bg-muted px-1.5 py-0.5 rounded">SKILL.md</code> or{" "}
+                    <code className="text-xs bg-muted px-1.5 py-0.5 rounded">CONTEXT.md</code> should include:
                   </p>
                   <ul className="text-sm text-muted-foreground space-y-2 list-disc list-inside">
                     <li>When to use this pack</li>
