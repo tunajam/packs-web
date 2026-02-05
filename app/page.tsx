@@ -21,7 +21,7 @@ export default function Page() {
         </pre>
         
         <p className="text-muted-foreground text-lg mb-6">
-          Skills for AI agents. One command.
+          skills.sh compatible. Enterprise ready.
         </p>
         
         <div className="flex items-center justify-center mb-8">
